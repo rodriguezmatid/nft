@@ -66,5 +66,12 @@ $ cast --help
 ```
 forge init
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
+forge install ChainAccelOrg/foundry-devops --no-commit
 
 make remappings in foundry.toml
+
+forge test --match-test testNameIsCorrect
+chisel
+gives you an interactive terminal
+
+make deploy ARGS="--network sepolia"
