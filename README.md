@@ -64,3 +64,7 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+forge init
+forge install OpenZeppelin/openzeppelin-contracts --no-commit
+
+make remappings in foundry.toml
